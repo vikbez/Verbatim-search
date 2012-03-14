@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="Nouveau document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="415.83675"
+     inkscape:cy="862.54435"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1264"
+     inkscape:window-height="956"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-opacity:1"
+       id="rect3765"
+       width="440"
+       height="280"
+       x="102.85714"
+       y="353.79074"
+       inkscape:export-filename="E:\Taff\vs_440_280.png"
+       inkscape:export-xdpi="90.000008"
+       inkscape:export-ydpi="90.000008" />
+    <rect
+       style="fill:#9800ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect2985"
+       width="150"
+       height="150"
+       x="117.08594"
+       y="418.79074"
+       rx="20"
+       ry="20"
+       inkscape:export-filename="E:\Taff\verbatim_search\icon-128.png"
+       inkscape:export-xdpi="76.799973"
+       inkscape:export-ydpi="76.799973" />
+    <text
+       xml:space="preserve"
+       style="font-size:90.62097168px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:OCR A Std;-inkscape-font-specification:OCR A Std"
+       x="116.79306"
+       y="523.96417"
+       id="text3755"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\Taff\verbatim_search\icon-128.png"
+       inkscape:export-xdpi="76.799973"
+       inkscape:export-ydpi="76.799973"><tspan
+         sodipodi:role="line"
+         id="tspan3757"
+         x="116.79306"
+         y="523.96417"
+         style="letter-spacing:-22.65524292px;fill:#ffffff">´a´</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:45.26952362px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Zephyrean BRK;-inkscape-font-specification:Zephyrean BRK"
+       x="405.11246"
+       y="483.09064"
+       id="text3759"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3761"
+         x="405.11246"
+         y="483.09064"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:OCR A Std;-inkscape-font-specification:OCR A Std">verbatim</tspan><tspan
+         sodipodi:role="line"
+         x="405.11246"
+         y="539.67755"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:OCR A Std;-inkscape-font-specification:OCR A Std"
+         id="tspan3763">search</tspan></text>
+  </g>
+</svg>
