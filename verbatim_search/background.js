@@ -1,4 +1,4 @@
-localStorage['status'] = 'on';
+localStorage['verbatim-status'] = 'on';
 
 //var reg=/\/\/www\.google.*(&|\?)q=([^&]+)/
 //var reg=/\/\/www\.google\.[^/]+/(search/)?[^/&\?]*(&|\?)q=([^&\n]+)/
@@ -7,25 +7,25 @@ var reg2=/(&tbs=li:1)/
 var reg3=/(fp=[^&]+&)/
 var reg4=/(tch=1&)/
 var reg5=/(\/s\?)/
+var regmaps=/(\/maps\/)|(\/search\?tbm=map)/
 
 function switchOnOff() {
-  if (localStorage['status'] == 'on') {
+  if (localStorage['verbatim-status'] == 'on') {
     chrome.browserAction.setIcon({'path': 'icon-b-19.png'})
     chrome.browserAction.setTitle({'title': 'Click to activate verbatim search'})
-    localStorage['status'] = 'off'
+    localStorage['verbatim-status'] = 'off'
   } else {
     chrome.browserAction.setIcon({'path': 'icon-a-19.png'})   
     chrome.browserAction.setTitle({'title': 'Click to deactivate verbatim search'})
-    localStorage['status'] = 'on'
+    localStorage['verbatim-status'] = 'on'
   }
-}
+};
 
 function checkForValidUrl(details) {
-  if (localStorage['status'] == 'off')
+  if (localStorage['verbatim-status'] == 'off')
     return
   //console.log(details.url)
-  console.log(details.url)
-  if (reg.test(details.url) && (reg2.test(details.url) == false)) {
+  if (reg.test(details.url) && (reg2.test(details.url) == false) && (regmaps.test(details.url) == false)) {
     //console.log('return 1 MODIFIED')
     return {redirectUrl: details.url+'&tbs=li:1'}
   } else {           
@@ -35,10 +35,10 @@ function checkForValidUrl(details) {
 };
 
 function checkForValidUrlXml(details) {
-  if (localStorage['status'] == 'off')
+  if (localStorage['verbatim-status'] == 'off')
     return
   //console.log(details.url)
-  if (reg.test(details.url) && (reg5.test(details.url) == false) && (reg2.test(details.url) == false)) {
+  if (reg.test(details.url) && (reg5.test(details.url) == false) && (reg2.test(details.url) == false) && (regmaps.test(details.url) == false)) {
     //console.log('return 2 MODIFIED')
     return {redirectUrl: details.url.replace(reg3, '').replace(reg4, '')+'&tbs=li:1'}
   } else {
