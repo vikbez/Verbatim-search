@@ -1,6 +1,6 @@
 {
   "name": "Verbatim Search",
-  "version": "1.4",
+  "version": "1.5",
   "description": "Always use verbatim search with google",
   "manifest_version": 2,
   "background": {
@@ -11,10 +11,9 @@
     "default_title": "Click to deactivate verbatim search"
   },
   "icons": {
-    "128": "icon-128.png",
-    "19a": "icon-a-19.png",
-    "19b": "icon-b-19.png",
-    "48": "icon-48.png"
+    "19": "icon-a-19.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
   },
   "permissions": [ "webRequest",
                    "webRequestBlocking",
